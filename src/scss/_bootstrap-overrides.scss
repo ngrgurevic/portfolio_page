@@ -65,13 +65,13 @@ a {
 }
 
 .btn-primary {
-  background-color: $primary;
+  background-color: $third-head;
   border-color: $primary;
   
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%);
+    background-color: darken($secondary-head, 5%);
     border-color: darken($primary, 10%);
   }
 }

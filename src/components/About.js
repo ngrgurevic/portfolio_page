@@ -38,8 +38,8 @@ function About() {
                     <ProgressBar/>
                     </div>
                 </div>
-                <div className="text-center mt-4">
-                    <div className='btn btn-xl btn-outline-light'>
+                <div className="text-center mt-4 ">
+                    <div className='btn btn-xl btn-primary text-primary-head btn-outline-light'>
                         <Download />
                     </div>
                 </div>
