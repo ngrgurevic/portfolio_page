@@ -1,11 +1,12 @@
 // Styling for the contact section
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 2px solid $gray-200;
   input,
   textarea {
     font-size: 1.5em;
     position: relative;
+    color: $gray-200;
     z-index: 1;
     padding-right: 0;
     padding-left: 0;
@@ -47,6 +48,7 @@
 .floating-label-form-group-with-focus {
   label {
     color: $primary;
+    
   }
 }
 form .row:first-child .floating-label-form-group {

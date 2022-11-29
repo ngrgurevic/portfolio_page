@@ -1,6 +1,9 @@
 import React from "react";
 import '../scss/styles.scss';
 import '../scss/freelancer.scss';
+import { FaGithub,FaLinkedinIn } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+import Timer from '../components/Timer'
 
 function Footer() {
     return (
@@ -16,57 +19,32 @@ function Footer() {
             </p>
           </div>
           <div className="col-md-4 mb-5 mb-lg-0">
-            <h4 className="text-uppercase mb-4">Around the Web</h4>
+            <h4 className="text-uppercase mb-4">Links</h4>
             <ul className="list-inline mb-0">
               <li className="list-inline-item">
-                <a
-                  className="btn btn-outline-light btn-social text-center rounded-circle"
-                  href="#"
-                >
-                  <i className="fa fa-fw fa-facebook" />
+              <IconContext.Provider value={{
+              style: {
+                fontSize: "40px",
+                color: '#0B2F08' ,
+                margin: "20px",
+              },
+            }}>
+                <a href="https://www.github.com/ngrgurevic">
+                <FaGithub />
                 </a>
-              </li>
-              <li className="list-inline-item">
-                <a
-                  className="btn btn-outline-light btn-social text-center rounded-circle"
-                  href="#"
-                >
-                  <i className="fa fa-fw fa-google-plus" />
+                <a href="https://www.linkedin.com/in/nikola-grgurevic-0782511b2">
+                <FaLinkedinIn/>
                 </a>
-              </li>
-              <li className="list-inline-item">
-                <a
-                  className="btn btn-outline-light btn-social text-center rounded-circle"
-                  href="#"
-                >
-                  <i className="fa fa-fw fa-twitter" />
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a
-                  className="btn btn-outline-light btn-social text-center rounded-circle"
-                  href="#"
-                >
-                  <i className="fa fa-fw fa-linkedin" />
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a
-                  className="btn btn-outline-light btn-social text-center rounded-circle"
-                  href="#"
-                >
-                  <i className="fa fa-fw fa-dribbble" />
-                </a>
+                </IconContext.Provider> 
               </li>
             </ul>
           </div>
           <div className="col-md-4">
-            <h4 className="text-uppercase mb-4">Links</h4>
+            <h4 className="text-uppercase mb-4">Timezone</h4>
             <p className="lead mb-0">
-              Feel free to contact  me
-              <a href="http://startbootstrap.com">Start Bootstrap</a>
+              <Timer/>
+              CET+1
             </p>
-            <a href="http://startbootstrap.com">Start Bootstrap</a>
           </div>
         </div>
       </div>

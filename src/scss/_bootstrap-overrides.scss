@@ -9,7 +9,15 @@ a {
 }
 
 .btn {
-  border-width: 2px;
+  border-width: 3px;
+  
+}
+
+.btn a{
+  text-decoration: none;
+}
+.btn a:hover{
+  text-decoration: 1px solid underline;
 }
 
 .bg-primary {
@@ -31,6 +39,7 @@ a {
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
+  
   &:hover,
   &:focus,
   &:active {
