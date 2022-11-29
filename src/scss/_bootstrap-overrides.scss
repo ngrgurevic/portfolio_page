@@ -4,7 +4,7 @@ a {
   &:focus,
   &:hover,
   &:active {
-    color: darken($primary, 10%);
+    color: darken($primary, 50%);
   }
 }
 
@@ -32,6 +32,9 @@ a {
 .bg-secondary {
   background-color: $secondary !important;
 }
+.bg-third {
+  background-color: $third-head !important;
+}
 
 .text-primary {
   color: $primary !important;
@@ -50,8 +53,11 @@ a {
 .text-secondary-head h2,h3 {
   color:$secondary-head !important;
 }
-.text-secondary-h h3{
-  color:$secondary !important;
+.text-secondary-head h2,h3{
+  color:$primary-head !important;
+}
+.text-third-head{
+  color:$third-head !important
 }
 
 .text-center li {

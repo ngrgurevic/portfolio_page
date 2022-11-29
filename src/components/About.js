@@ -13,7 +13,7 @@ function About() {
                 <hr className="star-light mb-4" />
                 <div className="row">
                     <div className="col-lg-4 ml-auto text-primary-head text-center">
-                        <h3 className="text-center text-uppercase text-secondary-head">Info</h3>
+                        <h3 className="text-center text-uppercase text-primary-head">Info</h3>
                         
                         <h6> Name</h6><p>Nikola Grgurević</p><br/>
                         <h6> DoB</h6><p>19.06.1992</p><br/>
@@ -26,7 +26,7 @@ function About() {
                         </ul>
                     </div>
                     <div className="col-lg-4 ml-auto text-primary-head">
-                        <h3 className="text-center text-uppercase text-secondary-head">Skills</h3>
+                        <h3 className="text-center text-uppercase text-primary-head">Skills</h3>
                         <p className="text-center lead">
                             Freelancer is a free bootstrap theme created by Start Bootstrap.
                             The download includes the complete source files including HTML,
@@ -34,7 +34,7 @@ function About() {
                             easy customization.
                         </p>
                     </div>
-                    <div className="col-lg-4 mr-auto text-secondary-head">
+                    <div className="col-lg-4 mr-auto text-primary-head">
                     <ProgressBar/>
                     </div>
                 </div>
