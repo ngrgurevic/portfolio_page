@@ -4,7 +4,7 @@ a {
   &:focus,
   &:hover,
   &:active {
-    color: darken($primary, 10%);
+    color: darken($primary, 50%);
   }
 }
 
@@ -12,6 +12,11 @@ a {
   border-width: 3px;
   
 }
+
+// .list-inline-item ul
+// {
+//   text-decoration: none;
+// }
 
 .btn a{
   text-decoration: none;
@@ -27,6 +32,9 @@ a {
 .bg-secondary {
   background-color: $secondary !important;
 }
+.bg-third {
+  background-color: $third-head !important;
+}
 
 .text-primary {
   color: $primary !important;
@@ -34,6 +42,26 @@ a {
 
 .text-secondary {
   color: $secondary !important;
+}
+
+.text-primary-head {
+  color:$primary-head !important;
+}
+.text-secondary-head {
+  color:$secondary-head !important;
+}
+.text-secondary-head h2,h3 {
+  color:$secondary-head !important;
+}
+.text-secondary-head h2,h3{
+  color:$primary-head !important;
+}
+.text-third-head{
+  color:$third-head !important
+}
+
+.text-center li {
+  text-decoration: none !important
 }
 
 .btn-primary {

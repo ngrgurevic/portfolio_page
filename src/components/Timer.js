@@ -13,7 +13,7 @@ function Timer(){
     setTime(time);
   }
   return(
-    <h3>{Time}</h3>
+    <h5>{Time}</h5>
   )
 }
  

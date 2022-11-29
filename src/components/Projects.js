@@ -1,61 +1,68 @@
-import React from "react";
+import React, { Profiler } from "react";
 import '../scss/styles.scss';
 import '../scss/freelancer.scss';
 import cabin from '../images/portfolio/cabin.png';
-import cake from '../images/portfolio/cake.png';
-import circus from '../images/portfolio/circus.png';
-import game from '../images/portfolio/game.png';
-import safe from '../images/portfolio/safe.png';
-import submarine from '../images/portfolio/submarine.png';
+import Profile from '../images/Profile.gif';
+import empty from '../images/empty1.png';
 
 function Project() {
     return (<section className="portfolio" id="portfolio">
         <div className="container">
-            <h2 className="text-center text-uppercase text-secondary mb-0">
+            <h2 className="text-center text-uppercase text-primary-head mb-0">
                 Projects
             </h2>
             <hr className="star-dark mb-5" />
-            <div className="row">
-                <div className="col-md-6 col-lg-4">
+            <div className="row text-secondary-head">
+                    
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                    <h3>Pokedex</h3>
+                    <p>Language: Swift App</p>
                     <a
                         className="portfolio-item d-block mx-auto"
-                        href="#portfolio-modal-1"
+                        href="https://github.com/ngrgurevic/Pokedex-nxg7120/archive/refs/heads/main.zip"
+                    >
+                        
+                        <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i className="fa fa-search-plus fa-3x" />
+                            </div>
+                        </div>
+                        <img className="img-fluid" src={cabin} alt="" width='250px' height='200' />
+                    </a>
+                </div>
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                    <h3>Pokedex</h3>
+                    <p>Language: Kotlin App</p>
+                    <a
+                        className="portfolio-item d-block mx-auto"
+                        href="https://github.com/ngrgurevic/Pokedex-nxg7120/archive/refs/heads/main.zip"
                     >
                         <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={cabin} alt="" />
+                        <img className="img-fluid" src={cabin} alt="" width='250px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4">
+                <div className="col-md-6 col-lg-4 color-primary text-center bg-secondary text-primary-head">
+                    <h3>Portfolio Page</h3>
+                    <p>Language: JS React HTML&CSS</p>
                     <a
                         className="portfolio-item d-block mx-auto"
-                        href="#portfolio-modal-2"
+                        href="https://github.com/ngrgurevic/portfolio_page/archive/refs/heads/master.zip"
                     >
                         <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={cake} alt="" />
+                        <img className="img-fluid" src={Profile} alt="circus" width='300px' height='200' />
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4">
-                    <a
-                        className="portfolio-item d-block mx-auto"
-                        href="#portfolio-modal-3"
-                    >
-                        <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i className="fa fa-search-plus fa-3x" />
-                            </div>
-                        </div>
-                        <img className="img-fluid" src={circus} alt="circus" />
-                    </a>
-                </div>
-                <div className="col-md-6 col-lg-4">
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                    <h3>Error 404</h3>
+                    <p>Status: Upcoming</p>
                     <a
                         className="portfolio-item d-block mx-auto"
                         href="#portfolio-modal-4"
@@ -65,10 +72,12 @@ function Project() {
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={game} alt="" />
+                        <img className="img-fluid" src={empty} alt="" width='200px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4">
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                    <h3>Error 404</h3>
+                    <p>Status: Upcoming</p>
                     <a
                         className="portfolio-item d-block mx-auto"
                         href="#portfolio-modal-5"
@@ -78,20 +87,22 @@ function Project() {
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={safe} alt="" />
+                        <img className="img-fluid" src={empty} alt="" width='200px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4">
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                    <h3>Error 404</h3>
+                    <p>Status: Upcoming</p>
                     <a
                         className="portfolio-item d-block mx-auto"
-                        href="#portfolio-modal-6"
+                        href="#portfolio-modal-4"
                     >
                         <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={submarine} alt="" />
+                        <img className="img-fluid" src={empty} alt="" width='200px' height='200'/>
                     </a>
                 </div>
             </div>
