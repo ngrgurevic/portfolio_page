@@ -4,7 +4,7 @@ function Contact() {
     return (
         <section id="contact" className='bg-primary'>
             <div className="container">
-                <h2 className="text-center text-uppercase text-secondary mb-0">
+                <h2 className="text-center text-uppercase text-primary-head mb-0">
                     Contact Me
                 </h2>
                 <hr className="star-dark mb-5" />
