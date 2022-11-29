@@ -3,7 +3,8 @@ import '../scss/styles.scss';
 import '../scss/freelancer.scss';
 import { FaGithub,FaLinkedinIn } from 'react-icons/fa';
 import { IconContext } from "react-icons";
-import Timer from '../components/Timer'
+import Timer from '../components/Timer';
+import Maps from '../components/Maps'
 
 function Footer() {
     return (
@@ -17,6 +18,7 @@ function Footer() {
               <br />
               Croatia, Zagreb 10000
             </p>
+            {/* <Maps/> */}
           </div>
           <div className="col-md-4 mb-5 mb-lg-0">
             <h4 className="text-uppercase mb-4">Links</h4>

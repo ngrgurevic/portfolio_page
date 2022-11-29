@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Profiler } from "react";
 import '../scss/styles.scss';
 import '../scss/freelancer.scss';
 import cabin from '../images/portfolio/cabin.png';
@@ -7,6 +7,7 @@ import circus from '../images/portfolio/circus.png';
 import game from '../images/portfolio/game.png';
 import safe from '../images/portfolio/safe.png';
 import submarine from '../images/portfolio/submarine.png';
+import Profile from '../images/Profile.gif'
 
 function Project() {
     return (<section className="portfolio" id="portfolio">
@@ -16,43 +17,53 @@ function Project() {
             </h2>
             <hr className="star-dark mb-5" />
             <div className="row">
-                <div className="col-md-6 col-lg-4">
+                    
+                <div className="col-md-6 col-lg-4 text-center">
+                    <div className='color'>
+                    <h3>Pokedex</h3>
+                    <p>Language: Swift App</p>
+                    </div>
                     <a
                         className="portfolio-item d-block mx-auto"
-                        href="#portfolio-modal-1"
+                        href="https://github.com/ngrgurevic/Pokedex-nxg7120/archive/refs/heads/main.zip"
                     >
+                        
                         <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={cabin} alt="" />
+                        <img className="img-fluid" src={cabin} alt="" width='250px' height='200' />
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4">
+                <div className="col-md-6 col-lg-4 text-center">
+                    <h3>Pokedex</h3>
+                    <p>Language: Kotlin App</p>
                     <a
                         className="portfolio-item d-block mx-auto"
-                        href="#portfolio-modal-2"
+                        href="https://github.com/ngrgurevic/Pokedex-nxg7120/archive/refs/heads/main.zip"
                     >
                         <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={cake} alt="" />
+                        <img className="img-fluid" src={cabin} alt="" width='250px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4">
+                <div className="col-md-6 col-lg-4 text-color-primary">
+                    <h3>Portfolio Page</h3>
+                    <p>Language: JS React HTML&CSS</p>
                     <a
                         className="portfolio-item d-block mx-auto"
-                        href="#portfolio-modal-3"
+                        href="https://github.com/ngrgurevic/portfolio_page/archive/refs/heads/master.zip"
                     >
                         <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                                 <i className="fa fa-search-plus fa-3x" />
                             </div>
                         </div>
-                        <img className="img-fluid" src={circus} alt="circus" />
+                        <img className="img-fluid" src={Profile} alt="circus" width='300px' height='200' />
                     </a>
                 </div>
                 <div className="col-md-6 col-lg-4">
