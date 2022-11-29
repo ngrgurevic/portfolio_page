@@ -46,8 +46,8 @@ function Footer() {
           <div className="col-md-4">
             <h2 className="text-uppercase text-secondary-head mb-4">Timezone</h2>
             <p className="lead mb-0">
+            Central European Time (CET)
               <Timer/>
-              +1 CET
             </p>
           </div>
         </div>
