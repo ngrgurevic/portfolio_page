@@ -1,27 +1,32 @@
 import React from "react";
 import '../scss/styles.scss';
 import '../scss/freelancer.scss';
-import resume from '../images/documents/Nikola_Grgurević_CV.pdf';
 import Download from "./Download";
-
+import ProgressBar from "./ProgressBar";
 
 
 function About() {
-
     return (
-        <section className="bg-secondary text-primary mb-0" id="about">
+        <section className="bg-secondary text-primary mb-6" id="about">
             <div className="container">
                 <h2 className="text-center text-uppercase text-white">About me</h2>
-                <hr className="star-light mb-5" />
+                <hr className="star-light mb-4" />
                 <div className="row">
-                    <div className="col-lg-4 ml-auto">
-                        <h3 className="text-center text-uppercase text-white">Info</h3>
-                        <p className="text-center lead">
-                            My name is Nikola Grgurević. 
-                        </p>
+                    <div className="col-lg-4 ml-auto text-primary-head text-center">
+                        <h3 className="text-center text-uppercase text-secondary-head">Info</h3>
+                        
+                        <h6> Name</h6><p>Nikola Grgurević</p><br/>
+                        <h6> DoB</h6><p>19.06.1992</p><br/>
+                        <h6> Education</h6><p>RIT Croatia</p><br/>
+                        <h6> Hobbies</h6>
+                        <ul className="list-inline text-center">
+                            <li>Swimming</li>
+                            <li>Cycling</li>
+                            <li>Comics</li>
+                        </ul>
                     </div>
-                    <div className="col-lg-4 ml-auto">
-                        <h3 className="text-center text-uppercase text-white">Skills</h3>
+                    <div className="col-lg-4 ml-auto text-primary-head">
+                        <h3 className="text-center text-uppercase text-secondary-head">Skills</h3>
                         <p className="text-center lead">
                             Freelancer is a free bootstrap theme created by Start Bootstrap.
                             The download includes the complete source files including HTML,
@@ -29,16 +34,8 @@ function About() {
                             easy customization.
                         </p>
                     </div>
-                    <div className="col-lg-4 mr-auto">
-                        <p className="lead">
-                            Whether you're a student looking to showcase your work, a
-                            professional looking to attract clients, or a graphic artist
-                            looking to share your projects, this template is the perfect
-                            starting point!Whether you're a student looking to showcase your work, a
-                            professional looking to attract clients, or a graphic artist
-                            looking to share your projects, this template is the perfect
-                            starting point!
-                        </p>
+                    <div className="col-lg-4 mr-auto text-secondary-head">
+                    <ProgressBar/>
                     </div>
                 </div>
                 <div className="text-center mt-4">

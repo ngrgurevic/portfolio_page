@@ -8,13 +8,13 @@ import empty from '../images/empty1.png';
 function Project() {
     return (<section className="portfolio" id="portfolio">
         <div className="container">
-            <h2 className="text-center text-uppercase text-secondary mb-0">
+            <h2 className="text-center text-uppercase text-secondary-head mb-0">
                 Projects
             </h2>
             <hr className="star-dark mb-5" />
             <div className="row text-secondary-h">
                     
-                <div className="col-md-6 col-lg-4 text-center ">
+                <div className="col-md-6 col-lg-4 text-center text-secondary-head ">
                     <h3>Pokedex</h3>
                     <p>Language: Swift App</p>
                     <a
@@ -30,7 +30,7 @@ function Project() {
                         <img className="img-fluid" src={cabin} alt="" width='250px' height='200' />
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center">
+                <div className="col-md-6 col-lg-4 text-center text-secondary-head">
                     <h3>Pokedex</h3>
                     <p>Language: Kotlin App</p>
                     <a
@@ -45,7 +45,7 @@ function Project() {
                         <img className="img-fluid" src={cabin} alt="" width='250px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 color-primary text-center">
+                <div className="col-md-6 col-lg-4 color-primary text-center text-secondary-head">
                     <h3>Portfolio Page</h3>
                     <p>Language: JS React HTML&CSS</p>
                     <a
@@ -60,7 +60,7 @@ function Project() {
                         <img className="img-fluid" src={Profile} alt="circus" width='300px' height='200' />
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center">
+                <div className="col-md-6 col-lg-4 text-center text-secondary-head">
                     <h3>Error 404</h3>
                     <p>Status: Upcoming</p>
                     <a
@@ -75,7 +75,7 @@ function Project() {
                         <img className="img-fluid" src={empty} alt="" width='200px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center">
+                <div className="col-md-6 col-lg-4 text-center text-secondary-head">
                     <h3>Error 404</h3>
                     <p>Status: Upcoming</p>
                     <a
@@ -90,7 +90,7 @@ function Project() {
                         <img className="img-fluid" src={empty} alt="" width='200px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center">
+                <div className="col-md-6 col-lg-4 text-center text-secondary-head">
                     <h3>Error 404</h3>
                     <p>Status: Upcoming</p>
                     <a

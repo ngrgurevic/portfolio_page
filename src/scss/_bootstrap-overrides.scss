@@ -13,6 +13,11 @@ a {
   
 }
 
+// .list-inline-item ul
+// {
+//   text-decoration: none;
+// }
+
 .btn a{
   text-decoration: none;
 }
@@ -39,10 +44,19 @@ a {
 .text-primary-head {
   color:$primary-head !important;
 }
+.text-secondary-head {
+  color:$secondary-head !important;
+}
+.text-secondary-head h2,h3 {
+  color:$secondary-head !important;
+}
 .text-secondary-h h3{
   color:$secondary !important;
 }
 
+.text-center li {
+  text-decoration: none !important
+}
 
 .btn-primary {
   background-color: $primary;

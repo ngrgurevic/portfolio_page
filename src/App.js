@@ -15,7 +15,7 @@ function App() {
       <Header />
       <About />
       <Project />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
 
       <div className="copyright py-4 text-center text-white">
