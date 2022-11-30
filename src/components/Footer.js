@@ -19,7 +19,7 @@ function Footer() {
             </p>
             <h6 className="text-uppercase mb-2">Phone & Email</h6>
             <p>+385977645232</p>
-            <a>nikolagrgurevic@gmail.com</a>
+            <a>nikolagrgurevic92@gmail.com</a>
             {/* <Maps/> */}
           </div>
           <div className="col-md-4 mb-5 mb-lg-0">

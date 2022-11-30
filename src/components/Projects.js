@@ -14,7 +14,7 @@ function Project() {
             <hr className="star-dark mb-5" />
             <div className="row text-secondary-head">
                     
-                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head custom-settings">
                     <h3>Pokedex</h3>
                     <p>Language: Swift App</p>
                     <a
@@ -30,7 +30,7 @@ function Project() {
                         <img className="img-fluid" src={cabin} alt="" width='250px' height='200' />
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head custom-settings">
                     <h3>Pokedex</h3>
                     <p>Language: Kotlin App</p>
                     <a
@@ -45,7 +45,7 @@ function Project() {
                         <img className="img-fluid" src={cabin} alt="" width='250px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 color-primary text-center bg-secondary text-primary-head">
+                <div className="col-md-6 col-lg-4 color-primary text-center bg-secondary text-primary-head custom-settings">
                     <h3>Portfolio Page</h3>
                     <p>Language: JS React HTML&CSS</p>
                     <a
@@ -60,7 +60,7 @@ function Project() {
                         <img className="img-fluid" src={Profile} alt="circus" width='300px' height='200' />
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head custom-settings">
                     <h3>Error 404</h3>
                     <p>Status: Upcoming</p>
                     <a
@@ -75,7 +75,7 @@ function Project() {
                         <img className="img-fluid" src={empty} alt="" width='200px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                <div className="col-md-2 col-lg-4 text-center bg-secondary text-primary-head custom-settings">
                     <h3>Error 404</h3>
                     <p>Status: Upcoming</p>
                     <a
@@ -90,7 +90,7 @@ function Project() {
                         <img className="img-fluid" src={empty} alt="" width='200px' height='200'/>
                     </a>
                 </div>
-                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head">
+                <div className="col-md-6 col-lg-4 text-center bg-secondary text-primary-head custom-settings">
                     <h3>Error 404</h3>
                     <p>Status: Upcoming</p>
                     <a
