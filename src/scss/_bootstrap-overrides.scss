@@ -78,9 +78,13 @@ a {
   padding-left: 25%;
 }
 
+.border-radius-master{
+  border-radius: 90%;
+}
+
 .btn-primary {
   background-color: $third-head;
-  border-color: $primary;
+  border-color: $secondary-head;
   
   &:hover,
   &:focus,

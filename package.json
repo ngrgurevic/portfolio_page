@@ -12,6 +12,8 @@
     "bootstrap-sass": "^3.4.3",
     "bootstrap-scss": "^5.2.2",
     "chart.js": "^4.0.1",
+    "framer-motion": "^7.6.15",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-chartjs-2": "^5.0.1",

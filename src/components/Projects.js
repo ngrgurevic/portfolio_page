@@ -3,7 +3,7 @@ import '../scss/styles.scss';
 import '../scss/freelancer.scss';
 import cabin from '../images/portfolio/cabin.png';
 import Profile from '../images/Profile.gif';
-import empty from '../images/empty1.png';
+import empty from '../images/not-found.png';
 
 function Project() {
     return (<section className="portfolio" id="portfolio">
