@@ -2,11 +2,15 @@
 .portfolio {
   margin-bottom: -15px;
   background-color: $primary;
+  word-spacing: 5px;
+  position: relative;
   .portfolio-item {
     position: relative;
-    
+    margin:10px;
+    word-spacing: 10px;
     display: block;
-    max-width: 25rem;
+    min-width: none;
+    max-width: 30rem;
     margin-bottom: 15px;
     .portfolio-item-caption {
       -webkit-transition: all ease 0.5s;
@@ -26,6 +30,7 @@
   }
   @media (min-width: 576px) {
     margin-bottom: -30px;
+    padding: none;
     .portfolio-item {
       margin-bottom: 30px;
     }
@@ -57,7 +62,7 @@
   @media(min-width: 768px) {
     .portfolio-modal-dialog {
       min-height: 100vh;
-      padding: 5rem;
+      padding: 0rem;
       margin: 3rem calc(3rem - 8px);
       h2 {
         font-size: 3rem;

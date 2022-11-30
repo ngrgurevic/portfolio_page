@@ -66,11 +66,16 @@ a {
 
 .custom-settings {
   text-decoration: none !important;
-  
   padding: 2%;
   border-top: 3px solid $secondary-head;
   border-bottom: 3px solid $secondary-head;
-  border-radius: 500px;
+  border-radius: 50px;
+  margin: 5px;
+}
+
+.custom-space {
+  margin:1%;
+  padding-left: 25%;
 }
 
 .btn-primary {

@@ -4,7 +4,7 @@ import '../scss/styles.scss';
 import '../scss/freelancer.scss';
 
 let data = [
-    ["Task", ""],
+    ["Languages", ""],
     ["React", 15],
     ["Kotlin", 12],
     ["JavaScript", 10],
